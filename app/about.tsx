@@ -4,7 +4,7 @@ import { View, StyleSheet } from 'react-native';
 
 const PlaceholderImage = require('@/assets/images/background-image.png');
 
-
+ 
 export default function Index() {
   return (
     <View style={styles.container}>
@@ -15,7 +15,7 @@ export default function Index() {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
   container: {
     flex: 1,
     backgroundColor: '#25292e',
